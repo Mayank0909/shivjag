@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivjag</title>
+    <link rel="stylesheet" href="/contact.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <a href="/">
+                    <img width="150" height="100" src="/logo.jpeg" style="cursor:pointer;">
+
+                </a>
+
+            </div>
+            <div class="col-sm-7 mymenu">
+
+                <nav class="navbar navbar-default">
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+
+
+                        </button>
+                    </div>
+
+                    <div class="colapse navbar-collapse" id="mynavbar">
+                        <!--Collapse -->
+
+                        <ul class="nav navbar-nav pull-right">
+                            <li> <a href="/">Home</a></li>
+                            <li> <a href="/about.html">About Us</a></li>
+                            <li> <a href="/services.html">Services</a></li>
+                            <li> <a href="/contact.html">Contact</a></li>
+                        </ul>
+                    </div> <!-- End of Collapse-->
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Contact Form </h1>
+        <div class="form">
+            <form>
+                <input class="form-control" type="text" id="name" aria-label="Name" placeholder="Your Name *"
+                    required />
+                <input class="form-control" type="email" id="mail" aria-label="Email" placeholder="Your Email *"
+                    required />
+                <input class="form-control" type="tel" id="tel" aria-label="Phone Number" placeholder="Your Number *"
+                    required />
+                <textarea class="message form-control" id="msg" aria-label="Message" placeholder="Your Message *"
+                    required></textarea>
+                <button type="submit" class="btn  form-control">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
