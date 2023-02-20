@@ -64,6 +64,11 @@
 	.navbar-collapse {
 		display: none;
 	}
+	.nav_logo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 .slide-container {
